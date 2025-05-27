@@ -1,6 +1,6 @@
 # Tema 3 – Limbaje Formale și Automate
 
-Acest proiect oferă trei funcționalități pentru gramatica liberă de context  
+Acest proiect oferă trei funcționalități pentru CFG
 
 G = (V, Σ, P, S), unde:
   V = { S }
