@@ -1,12 +1,16 @@
 # Tema 3 – Limbaje Formale și Automate
 
 Acest proiect oferă trei funcționalități pentru gramatica liberă de context  
-\[
-G = (\{S\}, \{a,b\}, P, S),
-\quad
-P: S \to aSb \mid \varepsilon
-\]
-care generează limbajul \(L = \{\,a^n b^n \mid n \ge 0\}\).
+
+G = (V, Σ, P, S), unde:
+  V = { S }
+  Σ = { a, b }
+  P:
+    S → a S b
+    S → ε
+  S: simbol de start
+
+L(G) = { a^n b^n | n ≥ 0 }
 
 ---
 
